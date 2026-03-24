@@ -27,8 +27,8 @@ feature.properties.type
 
 var caiVirrey = L.marker([4.6693, -74.0516]).addTo(map);
 
-caiVirrey.bindPopup(
-"<b>CAI El Virrey</b><br>Police Post near Parque El Virrey"
-);
+L.marker([4.6695,-74.0515], {opacity:0})
+  .addTo(map)
+  .bindTooltip("TEST LABEL", {permanent:true, direction:"top"});
   
 })
