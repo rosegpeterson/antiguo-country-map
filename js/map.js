@@ -25,18 +25,10 @@ feature.properties.type
 }
 }).addTo(map)
 
-var alejandroAranaZone = L.polygon([
-[4.6722, -74.0514],
-[4.6722, -74.0504],
-[4.6713, -74.0504],
-[4.6713, -74.0514]
-],{
-color:"#2563eb",
-fillOpacity:0.3
-}).addTo(map);
+var caiVirrey = L.marker([4.6693, -74.0516]).addTo(map);
 
-alejandroAranaZone.bindPopup(
-"<b>Alejandro Arana Zone</b><br> Carrera 15 between Calle 85 and Calle 86"
+caiVirrey.bindPopup(
+"<b>CAI El Virrey</b><br>Police Post near Parque El Virrey"
 );
   
 })
